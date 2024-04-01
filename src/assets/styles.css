@@ -1,1 +1,121 @@
 /* you can put styles in here :) */
+body{
+    color: #A9B06D;
+
+    font-family: "Lao Sans Pro", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+
+    background: #001F21;
+
+    background-image: url('wavee.png');
+    background-size:cover ;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   
+}
+/*navigation*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px; 
+}
+nav a {
+    color: #A9B06D;
+    text-align: center;
+    font-family: Mansalva, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    margin: 10px;
+}
+    .navi:hover{
+        text-decoration: underline;
+    }
+/*header*/
+.logo {
+    width:84px;
+    position: absolute;
+    left:10px;
+}
+.logo:hover{
+    animation: wiggle .8s ease infinite
+}
+    @keyframes wiggle{
+        0%{
+            transform: rotate(-3deg);
+        }
+        50%{
+            transform: rotate(3deg);
+        }
+        100%{
+            transform: rotate(-3deg);
+        }
+    }
+.logo2 {
+    width: 84px;
+   flex: auto;
+   padding-top: 50px;
+}
+.logo2:hover{
+    animation: wiggle .8s ease infinite
+}
+    @keyframes wiggle{
+        0%{
+            transform: rotate(-3deg);
+        }
+        50%{
+            transform: rotate(3deg);
+        }
+        100%{
+            transform: rotate(-3deg);
+        }
+    }
+.volume {
+    width: 84px;
+    display:flex;
+    flex-direction: column;
+    margin:auto;
+}
+.smile {
+    width: 84px;
+    display:flex;
+    flex-direction: column;
+    margin:auto;
+}
+.meditation {
+    width: 84px;
+    display:flex;
+    flex-direction: column;
+    margin:auto;
+}
+h2 {
+    color: #A9B06D;
+    text-align: center;
+    font-family: Mansalva, sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+}
+h1 {
+    color: #A9B06D;
+    text-align: center;
+    font-family: Mansalva, sans-serif;
+    font-size: 64px;
+    font-weight: 400;
+}
+footer {
+    color: #A9B06D;
+
+text-align: center;
+font-family: Mansalva;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+     

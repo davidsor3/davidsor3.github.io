@@ -38,12 +38,12 @@ nav a {
         text-decoration: underline;
     }
 /*header*/
-.logo {
+.header-logo {
     width:84px;
     position: absolute;
     left:10px;
 }
-.logo:hover{
+.header-logo:hover{
     animation: wiggle .8s ease infinite
 }
     @keyframes wiggle{

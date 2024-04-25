@@ -379,12 +379,7 @@ line-height: normal;
                                         border-bottom-color:teal;
                                     }
                                     #cage:checked ~ * [class^=peice].img{
-                                        background-image:url(https://placekitten.com/1000/1000);
+                                        background-image:url('felix.jpg');
                                     }
-                                    #cageAnim:checked ~ * [class^=peice].img{
-                                        background-image:url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/51773/cagedance.gif);
-                                    }  
-                                    #cageKitten:checked ~ * [class^=peice].img{
-                                        background-image:url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/51773/kittencage.jpg);
-                                    }
+                                    
                                     

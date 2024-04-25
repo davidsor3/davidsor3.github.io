@@ -3,7 +3,7 @@
   --header-height: 130px;
   /* this is the background color of the header bar and panel */
   --menu-bg: linear-gradient(180deg, #001f20 0%, #001f2000 100%);
-  --menu-highlight-hover: rgba(255, 255, 255, 0);
+  --menu-highlight-hover: rgba(157, 173, 155, 0.266);
 }
 
 * {
@@ -18,7 +18,7 @@
   z-index: 10000;
   top: -10rem;
   left: 1rem;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   font-size: 2rem;
   text-decoration: none;
   padding: 1rem;
@@ -118,13 +118,13 @@
 }
 
 .btn-toggle-menu>* {
-  fill: #fff;
-  color: #fff;
+  fill: #A9B06D;
+  color: #A9B06D;
 }
 
 
 .btn-toggle-menu:hover {
-  background-color: white;
+  background-color: rgba(157, 173, 155, 0.266);
 }
 /* this makes sure the header doesn't cover any page content */
 main {
@@ -170,3 +170,6 @@ main {
   }
 }
 
+.btn-toggle-menu {
+  color:#A9B06D;
+}

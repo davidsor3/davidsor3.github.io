@@ -32,7 +32,7 @@
 .main-nav-container {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: stretch;
   width: 100%;
   height: var(--header-height);
@@ -116,6 +116,13 @@
   background: transparent;
   z-index: 1000;
 }
+
+.btn-toggle-menu>* {
+  fill: #fff;
+  color: #fff;
+}
+
+
 .btn-toggle-menu:hover {
   background-color: white;
 }
@@ -125,7 +132,7 @@ main {
 }
 
 /* this media query sets the point where the layout transitions from top bar to hamburger */
-@media (min-width: 640px) {
+@media (min-width: 922px) {
   /* this makes the top bar menu items go across in a row on desktop */
   nav.main-nav {
     display: flex;
@@ -162,3 +169,4 @@ main {
     font-size: 1.5rem;
   }
 }
+

@@ -12,7 +12,7 @@ body{
     background: #001F21;
 
     background-image: url('wavee.png');
-    background-size:cover ;
+    background-size:cover;
    background-repeat: no-repeat;
    background-attachment: fixed;
    
@@ -34,9 +34,7 @@ nav a {
     text-decoration: none;
     margin: 10px;
 }
-    .navi:hover{
-        text-decoration: underline;
-    }
+    
 /*header*/
 .header-logo {
     width:84px;

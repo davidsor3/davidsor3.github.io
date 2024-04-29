@@ -117,6 +117,30 @@ font-weight: 400;
 line-height: normal;
 }
 
+.orb {
+    height: 100px;
+    width: 100px;
+    border-radius: 200px;
+    background: #A9B06D;
+    margin: auto;
+    margin-top: 200px;
+  }
+  
+  .orb_1 {
+    animation-name:orb_1;
+    animation-duration: 5s;
+    animation-delay: 0s;
+    animation-iteration-count:infinite;
+      animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+  }
+  
+  @keyframes orb_1 {
+    from { transform: scale(1); background: #A9B06D;}
+         to { transform: scale(3); background: #ffffff;}
+  }
+  
+
 /*--This Point Forward is Puzzle CSS Code--*/
                                     input[type="radio"]{
                                         display:none;

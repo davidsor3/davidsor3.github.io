@@ -14,9 +14,6 @@ body{
     background-image: url('wavee.png');
     background-size:cover;
    background-repeat: no-repeat;
-   
-   
-   
 }
 /*navigation*/
 nav{
@@ -60,6 +57,8 @@ nav a {
     width: 84px;
    flex: auto;
    padding-top: 50px;
+   float: left;
+   padding-left: 100px;
 }
 .logo2:hover{
     animation: wiggle .8s ease infinite
@@ -107,17 +106,42 @@ h1 {
     font-size: 64px;
     font-weight: 400;
 }
+h3 {
+    color: #A9B06D;
+    text-align: center;
+    padding-left: 40px;
+    font-family: Mansalva, sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    float: left;
+    margin-bottom: 0px;
+}
 footer {
     color: #A9B06D;
-
 text-align: center;
 font-family: Mansalva;
 font-size: 24px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+display: inline-block;
+  vertical-align: top;
 }
-
+h4{
+    color: #A9B06D;
+    font-family: Mansalva;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: inline-block;
+      vertical-align: top;
+      padding-top: 0px;
+      margin-top:0px;
+    padding-left: 200px;
+    display: inline-block;
+  display:block;
+}
 .orb {
     height: 100px;
     width: 100px;

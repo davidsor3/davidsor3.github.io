@@ -1,179 +1,194 @@
 /* you can put styles in here :) */
-body{
-    color: #A9B06D;
-
-    font-family: "Lao Sans Pro", sans-serif;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    text-align: center;
-
-    background: #001F21;
-
-    background-image: url('wavee.png');
-    background-size:cover;
-   background-repeat: no-repeat;
+body {
+  color: #a9b06d;
+  font-family: "Lao Sans Pro", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  background: #001f21;
+  background-image: url("wavee.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 /*navigation*/
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-left: 50px;
-    margin-right: 50px; 
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 nav a {
-    color: #A9B06D;
-    text-align: center;
-    font-family: Mansalva, sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    text-decoration: none;
-    margin: 10px;
+  color: #a9b06d;
+  text-align: center;
+  font-family: Mansalva, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none;
+  margin: 10px;
 }
-    
+
+main {
+    max-width: 800px;
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+}
+
+p {
+    max-width: 800px;
+}
+
 /*header*/
 .header-logo {
-    width:84px;
-    position: absolute;
-    left:10px;
+  width: 84px;
+  position: absolute;
+  left: 10px;
 }
-.header-logo:hover{
-    animation: wiggle .8s ease infinite
+.header-logo:hover {
+  animation: wiggle 0.8s ease infinite;
 }
-    @keyframes wiggle{
-        0%{
-            transform: rotate(-3deg);
-        }
-        50%{
-            transform: rotate(3deg);
-        }
-        100%{
-            transform: rotate(-3deg);
-        }
-    }
+@keyframes wiggle {
+  0% {
+    transform: rotate(-3deg);
+  }
+  50% {
+    transform: rotate(3deg);
+  }
+  100% {
+    transform: rotate(-3deg);
+  }
+}
 .logo2 {
-    width: 84px;
-   flex: auto;
-   padding-top: 50px;
-   float: left;
-   padding-left: 100px;
+  width: 84px;
 }
-.logo2:hover{
-    animation: wiggle .8s ease infinite
+.logo2:hover {
+  animation: wiggle 0.8s ease infinite;
 }
-    @keyframes wiggle{
-        0%{
-            transform: rotate(-3deg);
-        }
-        50%{
-            transform: rotate(3deg);
-        }
-        100%{
-            transform: rotate(-3deg);
-        }
-    }
+@keyframes wiggle {
+  0% {
+    transform: rotate(-3deg);
+  }
+  50% {
+    transform: rotate(3deg);
+  }
+  100% {
+    transform: rotate(-3deg);
+  }
+}
+.smile, .meditation {
+  width: clamp(84px, 70%, 150px);
+}
 .volume {
-    width: 84px;
-    display:flex;
-    flex-direction: column;
-    margin:auto;
-}
-.smile {
-    width: 84px;
-    display:flex;
-    flex-direction: column;
-    margin:auto;
-}
-.meditation {
-    width: 84px;
-    display:flex;
-    flex-direction: column;
-    margin:auto;
-}
-h2 {
-    color: #A9B06D;
-    text-align: center;
-    font-family: Mansalva, sans-serif;
-    font-size: 48px;
-    font-weight: 400;
-}
-h1 {
-    color: #A9B06D;
-    text-align: center;
-    font-family: Mansalva, sans-serif;
-    font-size: 64px;
-    font-weight: 400;
-}
-h3 {
-    color: #A9B06D;
-    text-align: center;
-    padding-left: 40px;
-    font-family: Mansalva, sans-serif;
-    font-size: 48px;
-    font-weight: 400;
-    float: left;
-    margin-bottom: 0px;
-}
-footer {
-    color: #A9B06D;
-text-align: center;
-font-family: Mansalva;
-font-size: 24px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-display: inline-block;
-  vertical-align: top;
-}
-h4{
-    color: #A9B06D;
-    font-family: Mansalva;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    display: inline-block;
-      vertical-align: top;
-      padding-top: 0px;
-      margin-top:0px;
-    padding-left: 200px;
-    display: inline-block;
-  display:block;
-}
-.orb {
-    height: 100px;
-    width: 100px;
-    border-radius: 200px;
-    background: #A9B06D;
-    margin: auto;
-    margin-top: 130px;
-    margin-bottom: 130px;
-  }
-  
-  .orb_1 {
-    animation-name:orb_1;
-    animation-duration: 5s;
-    animation-delay: 0s;
-    animation-iteration-count:infinite;
-      animation-timing-function: ease-in-out;
-    animation-direction: alternate;
-  }
-  
-  @keyframes orb_1 {
-    from { transform: scale(1); background: #A9B06D;}
-         to { transform: scale(3); background: #ffffff;}
-  }
-  .index a {
-    color:#A9B06D;
-    text-decoration:none;
+    width: clamp(84px, 70%, 180px);
   }
 
-  .index a:hover {
-    color: #ffffff;
-    text-decoration:underline;
-    
+h2 {
+  color: #a9b06d;
+  font-family: Mansalva, sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  margin-bottom: 0;
+
+}
+h1 {
+  color: #a9b06d;
+  font-family: Mansalva, sans-serif;
+  font-size: 64px;
+  font-weight: 400;
+  text-align: center;
+}
+h3 {
+  color: #a9b06d;
+  font-family: Mansalva, sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+}
+footer {
+  color: #a9b06d;
+  font-family: Mansalva;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 69px;
+}
+
+h4 {
+  color: #a9b06d;
+  font-family: Mansalva;
+  font-size: 24px;
+  font-weight: 400;
+}
+.orb {
+  height: 100px;
+  width: 100px;
+  border-radius: 200px;
+  background: #a9b06d;
+  margin: auto;
+  margin-top: 130px;
+  margin-bottom: 130px;
+}
+
+.orb_1 {
+  animation-name: orb_1;
+  animation-duration: 5s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate;
+}
+
+@keyframes orb_1 {
+  from {
+    transform: scale(1);
+    background: #a9b06d;
   }
-/*--This Point Forward is Puzzle CSS Code--*/
-                                   
+  to {
+    transform: scale(3);
+    background: #ffffff;
+  }
+}
+.index a {
+  color: #a9b06d;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.index a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+footer .container {
+    flex-direction: row;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  flex-direction: column;
+
+}
+.index .container * {
+    text-align: center;
+}
+
+footer h3,
+footer h4 {
+  margin: 0;
+  text-align: left;
+}
+
+@media (min-width: 922px) {
+    .container {
+        flex-direction: row;
+    }
+}

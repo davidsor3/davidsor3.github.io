@@ -1,7 +1,6 @@
 /* you can put styles in here :) */
 body {
   color: #a9b06d;
-  font-family: "Lao Sans Pro", sans-serif;
   font-size: 24px;
   font-weight: 400;
   background: #001f21;
@@ -9,8 +8,9 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
-    flex-direction: column;
-    align-items: center;
+flex-direction: column;
+align-items: center;
+font-family: "Work Sans", sans-serif;
 }
 /*navigation*/
 nav {
@@ -90,8 +90,12 @@ h2 {
   font-family: Mansalva, sans-serif;
   font-size: 48px;
   font-weight: 400;
-  margin-bottom: 0;
 
+
+}
+
+.index h2 {
+    margin-bottom: 0;
 }
 h1 {
   color: #a9b06d;
@@ -185,6 +189,11 @@ footer h3,
 footer h4 {
   margin: 0;
   text-align: left;
+}
+
+.destress main a {
+    color: white;
+    padding-bottom: 30px;
 }
 
 @media (min-width: 922px) {

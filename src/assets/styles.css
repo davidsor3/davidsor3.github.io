@@ -112,7 +112,7 @@ h3 {
 }
 footer {
   color: #a9b06d;
-  font-family: Mansalva;
+  font-family: Mansalva, sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
@@ -124,7 +124,7 @@ footer {
 
 h4 {
   color: #a9b06d;
-  font-family: Mansalva;
+  font-family: Mansalva, sans-serif;
   font-size: 24px;
   font-weight: 400;
 }

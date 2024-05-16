@@ -6,9 +6,9 @@ module.exports = function (eleventyConfig) {
   let p = {};
   if (process.env.NODE_ENV === "build") {
     console.log("running in production");
-    eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
+    // eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
     // this should be set
-    p = { pathPrefix: urlBase };
+    // p = { pathPrefix: urlBase };
   }
 
   eleventyConfig.addPassthroughCopy("src/assets");

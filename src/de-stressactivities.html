@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-  {% include 'head', title:'De-Stress Activities' %}
-  <body class="destress">
-    <link rel="stylesheet" href="/assets/puzzle.css" />
-    {% include 'header' %}
-    <main id="main-content">
-      <h1>De-Stress Activities</h1>
-      <p>Doing a fun activity to take your mind off of stress is a great way to relax. Below, try different games and coloring pages to chill out. You've earned it.</p>
-      <h2>Sliding Puzzle</h2>
-      <section>
+{% include 'head', title:'De-Stress Activities' %}
+
+<body class="destress">
+  <link rel="stylesheet" href="/assets/puzzle.css" />
+  {% include 'header' %}
+  <main id="main-content">
+    <h1>De-Stress Activities</h1>
+    <p>Doing a fun activity to take your mind off of stress is a great way to relax. Below, try different games and
+      coloring pages to chill out. You've earned it.</p>
+    <h2>Sliding Puzzle</h2>
+    <section>
       <input type="checkbox" id="cheat" />
       <input type="radio" id="cage" name="image" checked />
 
@@ -136,21 +138,17 @@
         <div class="peice-h img"></div>
       </div>
       <div class="winner">WINNER!</div>
-      </section>
+    </section>
 
-      <h2>Terra Coloring Page</h2>
-      <a href="/assets/terracoloringpage.pdf" target="_blank">
-        (Click to Download PDF)
-      </a>
-      <a href="/assets/terracoloringpage.pdf" target="_blank">
-        <img
-          src="/assets/terracoloringpage-min.jpg"
-          alt="TerraColoringPage"
-          width="255"
-          height="330"
-        />
-      </a>
-    </main>
-    {% include 'footer' %}
-  </body>
+    <h2>Terra Coloring Page</h2>
+    <a href="/assets/terracoloringpage.pdf" target="_blank">
+      (Click to Download PDF)
+    </a>
+    <a href="/assets/terracoloringpage.pdf" target="_blank">
+      <img src="/assets/terracoloringpage-min.jpg" alt="TerraColoringPage" width="255" height="330" />
+    </a>
+  </main>
+  {% include 'footer' %}
+</body>
+
 </html>
